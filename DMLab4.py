@@ -15,18 +15,17 @@ I - матриця інцидентності
 def A_to_I(inmatric = []):
     if inmatric == []: return []
     outmatric = inmatric
-
- 
+    
+    
     
     return outmatric
 # Функція перекладу матриці інцидентності в матрицю суміжності
 def I_to_A(inmatric = []):
     if inmatric == []: return []
     outmatric = inmatric
-
-
-
-
+    
+    
+    
     return outmatric
 # Функція введення матриці
 def MatricInit(outmatric = []):

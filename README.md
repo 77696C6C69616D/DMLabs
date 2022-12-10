@@ -1,10 +1,8 @@
 - # Лабораторна робота 1
 
     ---
-    ## Програма: 
-    ```
-    git clone 
-    ```
+    ## Програма:
+    [DMLab1.py](https://github.com/77696C6C69616D/DMLabs/blob/master/DMLab1.py)
     ---
     ## Результат:
     ![alt text](./.img/dml1-1.png)
@@ -40,7 +38,7 @@
     ---
     ## Програма: 
     
-    [Contribution guidelines for this project](docs/DMLab1.py)
+    [Contribution guidelines for this project](./DMLab2.py)
     
     ---
     ## Результат:
@@ -66,9 +64,6 @@ C  B  (A  C)  B
 
     ---
     ## Програма: 
-    ```
-    git clone 
-    ```
     ---
     ## Результат:
     ![alt text](./.img/dml3-1.png)
@@ -94,9 +89,6 @@ C  B  (A  C)  B
 
     ---
     ## Програма: 
-    ```
-    git clone 
-    ```
     ---
     ## Результат:
     ![alt text](./.img/dml4-1.png)
@@ -119,9 +111,7 @@ C  B  (A  C)  B
 
     ---
     ## Програма: 
-    ```
-    git clone 
-    ```
+ 
     ---
     ## Результат:
     ---

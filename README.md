@@ -4,7 +4,7 @@
 ## Програма: [DMLab1.py](https://github.com/77696C6C69616D/DMLabs/blob/master/DMLab1.py)
 ---
 ## Результат:
-![alt text](./.img/dml1-1.png)
+![alt text](img/dml1-1.png)
 ---
 
 ### **Тема:** «Теорія множин».

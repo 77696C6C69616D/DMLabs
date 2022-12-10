@@ -64,7 +64,7 @@
 ## Програма: [DMLab3.py](https://github.com/77696C6C69616D/DMLabs/blob/master/DMLab3.py)
 ---
 ## Результат:
-<p align="center"><img width="600px" src="img/dml3-1.png"></p>
+<p align="center"><img src="img/dml3-1.png"></p>
 
 ---
 

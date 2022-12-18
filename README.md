@@ -95,9 +95,18 @@
 
 - ## Завдання: 
     - Створити програму, що реалізує знаходження діаметра, радіуса, центральних та периферійних вершини графу
+<<<<<<< HEAD
 ---
 ## Програма: [DMLab5.py](https://github.com/77696C6C69616D/DMLabs/blob/master/DMLab5.py)  
 ---
 ## Результат:
 <p align="center"><img src="img/dml5-1.png"></p>
+=======
+---
+## Програма: [DMLab5.py](https://github.com/77696C6C69616D/DMLabs/blob/master/DMLab5.py)  
+>>>>>>> dml5 image/readme update
+---
+## Результат:
+<p align="center"><img src="img/dml5-1.png"></p>
+
 ---

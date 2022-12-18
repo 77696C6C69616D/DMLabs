@@ -1,65 +1,4 @@
 alpmatrix = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'k']
-NodeNumber = 8
-branch = [3, 5]
-
-def matrix_of_len (inmatrix, tmp = []): 
-    cout = [
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0],
-    ]
-    substractor = len(branch)
-    
-    for inner in range (0, NodeNumber):
-        for inner_inner in range (0, NodeNumber):
-            if inner != inner_inner:   
-                
-                if inner_inner + 1 in branch: 
-                    cout[inner][inner_inner] = None
-                    continue
-                    
-                
-                
-                
-                if inner_inner + 1 > NodeNumber/2: 
-                    cout[inner][inner_inner] = inner_inner + 1 - inner + 1 - substractor
-                    continue
-                
-                
-                
-                cout[inner][inner_inner] = inner_inner - 1 - inner - 1
-                    
-                    
-
-                    
-                    
-                    
-            None
-        break
-            
-            
-            
-            
-    # [0, 1, 2, 2, 3, 3, 4, 5],
-    # [1, 0, 1, 1, 2, 2, 3, 4],
-    # [2, 1, 0, 1, 1, 1, 2, 3],
-    # [2, 1, 1, 0, 2, 1, 2, 3],
-    # [3, 2, 1, 2, 0, 1, 2, 3],
-    # [3, 2, 1, 1, 1, 0, 1, 2],
-    # [4, 3, 2, 2, 2, 1, 0, 1],
-    # [5, 4, 3, 3, 3, 2, 1, 0]]
-    
-    
-    for i in cout: 
-        print(i)
-    
-        
-    exit()    
 
 def GetMaxNodesLen(inp, cout = []): 
     [cout.append(max(i)) for i in inp]
@@ -79,6 +18,16 @@ def GetRadius (MaxNodeLen):
 def GetDiameter (MaxNodeLen):     
     return max(MaxNodeLen)
 
+cin = [
+[0, 1, 2, 2, 3, 3, 4, 5],
+[1, 0, 1, 1, 2, 2, 3, 4],
+[2, 1, 0, 1, 1, 1, 2, 3],
+[2, 1, 1, 0, 2, 1, 2, 3],
+[3, 2, 1, 2, 0, 1, 2, 3],
+[3, 2, 1, 1, 1, 0, 1, 2],
+[4, 3, 2, 2, 2, 1, 0, 1],
+[5, 4, 3, 3, 3, 2, 1, 0]]
+
 print('\n> Граф: \n'
 """
        c      e
@@ -90,15 +39,12 @@ a   b\ |      | f
        d         /
               k o
 """)
-print("""
-o---o---o---o---o---o
-a   b   d   f   g   k
-        c---e
-""")
 
 print('> Матриця графа:\n')
-matrix_of_len(NodeNumber)
+# matrix_of_len(NodeNumber)
+[print(i) for i in cin]
 print()
+
 
 tmp = GetMaxNodesLen(cin)
 print('> Центр графа:', GetCenter(tmp))
